@@ -4,4 +4,55 @@
 }
 .blue-square{
     position:absolute;
+    margin-left: 180px;
+    
+}
+.z-index-1{
+    z-index:1;
+}
+.helloThere{
+    font-size: 16px;
+    font-family: 'Abhaya Libre';
+    font-weight: 500;
+    letter-spacing: 6%;
+    color:#444444;
+    margin: 0;
+}
+.name{
+    display:inline;
+    font-size: 140px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-weight: 800;
+    letter-spacing: -4px;
+    color:#06314A;
+    margin:0;
+    width: fit-content;
+    height: fit-content;
+}
+.mainImg{
+        max-width: 100%;
+        max-height: 100%;
+}
+.socialMedia{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.margin-70{
+    margin-right:70px;
+    margin-left:70px;
+}
+
+.latestWork{
+    max-width: 30%;
+    max-height: 20%;
+}
+
+.gap{
+    gap:25px;
+}
+
+div.bg-danger{
+    max-width: 40%;
+    max-height:80%;
+    
 }
