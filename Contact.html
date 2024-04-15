@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Send Mail</title>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+ 
+    <!-- <script type="text/javascript">
+        function sendEmail() {
+            var senderEmail = document.getElementById("senderEmail").value;
+            if (!senderEmail || !validateEmail(senderEmail)) {
+                alert("Please enter a valid sender email address");
+                return;}
+        }
+        function sendEmail() {
+            Email.send({ 
+            Host : "smtp.gmail.com", 
+            Username : "stephentmoran6@gmail.com", 
+            Password : "yplo otcf kwet twxy", 
+            To : 'TomasOssaefcsl@gmail.com', 
+            From : "stephentmoran6@gmail.com", 
+            Subject : "Test email", 
+            Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>" })
+            .then( message => console.log(message) );
+        }
+    </script> -->
+
+    <script type="text/javascript">
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username : "stephentmoran6@gmail.com", 
+                Password : "E64E87472BBA5C2230FA4DF37DD592262851", 
+                To : 'TomasOssaefcsl@gmail.com', 
+                From : "stephentmoran6@gmail.com", 
+                Subject: "Sending Email using javascript",
+                Body: "Well that was easy!!",
+            })
+                .then(function (message) {
+                    console.log(message)
+                    alert("mail sent successfully")
+                });
+        }
+    </script>
+</head>
+ 
+<body>
+    <form method="post">
+        <!-- <label for="senderEmail">Your Email:</label><br>
+        <input type="email" id="senderEmail" name="senderEmail" required><br> -->
+        <input type="button" value="Send Email" onclick="sendEmail()" />
+    </form>
+</body>
+</html>
