@@ -87,3 +87,16 @@
     width: fit-content;
     height: fit-content;
 }
+
+.body{
+    display:inline;
+    font-size: 35px;
+    font-family: 'Abhaya Libre';
+    font-weight: 500;
+    letter-spacing: -4px;
+    color:#06314A;
+    margin:0;
+    width: fit-content;
+    height: fit-content;
+}
+

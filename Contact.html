@@ -68,13 +68,13 @@
             nav.innerHTML=data
         })
     </script>
-    <div class="col-12">
-    <div class="col-6"></div>
+    <div class="col-12 d-flex flex-row">
+    <div class="col-5"></div>
     <div class="col-6">
     <form method="post">
-        <label for="subject">Subject:</label><br>
+        <label for="subject" class="education mt-4">Subject:</label><br>
         <input type="text" id="subject" name="subject"><br>
-        <label for="body">Body:</label><br>
+        <label for="body" class="body">Body:</label><br>
         <textarea id="body" name="body"></textarea><br><br>
         <input type="button" value="Send Email" onclick="sendEmail()" />
     </form>
